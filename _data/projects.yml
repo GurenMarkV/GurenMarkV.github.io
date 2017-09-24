@@ -1,16 +1,37 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# donutfinder.io
-- project: donutfinder.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+# Technical Communications
+- project: Technical Communications
+  role: Group Leader
+  duration: Jan 2014 &mdash; Mar 2014
   # url: "#"
-  description: Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.
+  description: <ul class="resume-item-list"><li>Supervised group of 5 for the completion of various group tasks including building the track</li><li>Assigned to program the controls and operations of a robot vehicle with a mobile arm</li><li>Programmed using C++ and Java languages</li><li>Placed 2nd in class competition out of 15 other team competitors</li></ul>
 
-#Springfield Donut Eater's User Group
-- project: Springfield Donut Eater's User Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+# Introduction to Internet
+- project: Introduction to Internet
+  role: Group Leader
+  duration: Sept 2015 &mdash; Dec 2015
   # url: "#"
-  description: DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.
+  description: <ul class="resume-item-list"><li>Supervised a group of 6 people to create a professional website and present it to the class</li><li>The groups website and presentation was the best in the class</li><li>Understood the strengths and weakness of all members and assigned tasks accordingly</li></ul>
+
+# Microprocessors
+- project: Microprocessors
+  role: Group Leader
+  duration: May 2016 &mdash; Aug 2016
+  # url: "#"
+  description: <ul class="resume-item-list"><li>Designed and simulated a 6bit CPU using RISC architecture inside Logisim</li><li>Implemented an ALU with 15 operations using hexadecimal operation codes</li></ul>
+
+# Digital Logic Design II
+- project: Digital Logic Design II
+  role: Group Leader
+  duration: Sept 2016 &mdash; Dec 2016
+  # url: "#"
+  description: <ul class="resume-item-list"><li>Familiar in working with Altera FPGA for designing using VHDL and Verilog</li><li>Designed, simulated and implemented several models including major project of designing the ALU of the system with 25 Arithmetic and Logical functions as efficiently as possible</li></ul>
+
+# Integrated Solar Management System
+- project: Integrated Solar Management System
+  role: Arduino Programmer, Videography, Photography
+  duration: Jan 2017 &mdash; Aug 2017
+  # url: "#"
+  description: Using Arduino-based setup interfaced with a thermal camera to detect and respond to partial shading and faulted modules. Along with developing or repurposing an algorithm for the tracking of the Global Maximum Power Point of a partially shaded photovoltaic array, and to ensure that such an algorithm is as efficient as possible.
