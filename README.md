@@ -1,1 +1,0 @@
-# GurenMarkV.github.io
