@@ -1,8 +1,8 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
-- organization: 
-  role:
-  year:
-  url:
-  summary:
+- organization: IEEE Student Member
+  role: Webmaster
+  year: May 2017 &mdash; Present
+  url: sites.ieee.org/sb-uwindsor/
+  summary: Responsible for maintaining and updating the student website.
