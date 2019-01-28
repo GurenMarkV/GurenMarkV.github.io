@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <!-- Title -->
+  <title>JavaScript Event KeyCodes</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="vendors/linericon/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+  <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+<link rel="stylesheet" href="vendors/animate-css/animate.css">
+<!-- Core Stylesheet -->
+<link rel="stylesheet" href="style.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  
+  <link rel="stylesheet" href="css/style_keycode.css?v=11272018">
+  
+</head>
+
+<body>
+  <canvas width="128" height="128" hidden></canvas>
+  <div class="display">
+    <table class="table hide">
+      <thead>
+        <tr>
+          <th>Key Code</th>
+          <th>Key</th>
+        </tr>
+      </thead>
+      <tbody class="table-body">
+      </tbody>
+    </table>
+    <div class="wrap" aria-live="polite" aria-atomic="true">
+      <p class="keycode-display"></p>
+      <p class="text-display">Press any key to get the JavaScript event keycode</p>
+      <div class="cards hide">
+        <div class="card item-key">
+          <div class="card-header">event.key</div>
+          <div class="card-main">
+            <div class="main-description">key</div>
+          </div>
+        </div>
+        <div class="card item-location">
+          <div class="card-header">event.location
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/location" target="_blank" rel="noopener"
+              class="more-info"></a>
+          </div>
+          <div class="card-main">
+            <div class="main-description">location</div>
+          </div>
+        </div>
+        <div class="card item-which">
+          <div class="card-header">
+            event.which
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent" target="_blank" rel="noopener"
+              class="deprecated-link">(deprecated)</a>
+          </div>
+          <div class="card-main">
+            <div class="main-description">which</div>
+          </div>
+        </div>
+        <div class="card item-code">
+          <div class="card-header">event.code</div>
+          <div class="card-main">
+            <div class="main-description">code</div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-input">
+      </div>
+    </div>
+    <button onclick={toggleTable()} class="table-toggle-button">Table</button>
+  </div>
+<!-- The Action -->
+  <script type='text/javascript'>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./service-worker.js');
+    }
+  </script>
+  <script src="scripts.js?v=11272018"></script>
+  <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+</body>
+
+</html>
